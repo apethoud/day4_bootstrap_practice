@@ -1,0 +1,54 @@
+
+/*
+
+1. General
+2. Home Page
+
+*/
+
+/*######### General #########*/
+
+
+
+/*######### Home Page #########*/
+
+.jumbotron {
+  background-image: url("../images/star_trek_banner.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  /*background: red;*/
+}
+
+.btn {
+  background: #1E87A6;
+  color: white;
+}
+
+.wrapper {
+  background: #C6EAF2;
+}
+
+.content h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.content_title {
+  height: 100px;
+}
+
+.content_column {
+  background: #0D1C23;
+  height: 200px;
+}
+
+.content_column h1 {
+  color: #1E87A6;
+  font-size: 28px;
+}
+
+.content_column p {
+  color: white;
+  text-align: center;
+}
