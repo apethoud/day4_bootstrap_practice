@@ -8,7 +8,9 @@
 
 /*######### General #########*/
 
-
+.wrapper {
+  background: #C6EAF2;
+}
 
 /*######### Home Page #########*/
 
@@ -16,8 +18,18 @@
   background-image: url("../images/star_trek_banner.jpg");
   background-size: cover;
   background-position: center;
-  min-height: 500px;
+  padding-top: 30%;
+  padding-bottom: 10%;
+  color: white;
+  /*min-height: 200px;*/
   /*background: red;*/
+}
+
+.jumbotron_items {
+  background: rgba(0, 0, 0, 0.5);
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 5%;
 }
 
 .btn {
@@ -25,18 +37,14 @@
   color: white;
 }
 
-.wrapper {
-  background: #C6EAF2;
-}
-
 .content h1 {
   font-size: 36px;
   text-align: center;
 }
 
-.content_title {
+/*.content_title {
   height: 100px;
-}
+}*/
 
 .content_column {
   background: #0D1C23;
